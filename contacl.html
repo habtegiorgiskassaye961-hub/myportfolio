@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image1{
+            width: 400px;
+            height: 450px;
+            border: 2px solid rgb(240, 10, 10);
+            box-shadow: 0px 4px 10px rgb(4, 243, 96);
+            border-radius: 200px;
+        }
+        #buttons{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+            color: rgb(0, 0, 13);
+            background-color: rgb(82, 172, 82);
+            border: 2px solid red;
+            width: 65px;
+            height: 35px;
+            border-radius: 10px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+            <p>Habtegiorgis Kassaye</p>
+            <div class="links">
+            <a href="index.html">home</a>
+            <a href="about.html">About</a>
+             <a href="skill.html">Skills</a>
+             <a href="project.html">Projects</a>
+            <a href="contacl.html">Contact</a>
+        </div>
+    </div>
+    <div class="mainbody">
+        <div class="container">
+        <div class="sec1" style="margin-left: 100px;">
+            <img class="image1" src="image/habte6.jpg" alt="no image">
+        </div>
+        <div class="sec2">
+            <h1>Contact Me</h1>
+            <input type="text" placeholder="enter a valid email address" style="width: 300px; height: 30px;">
+            <br><br>
+            <input type="text" placeholder="enter your name"style="width: 300px; height: 30px;">
+            <br><br>
+            <textarea name="message" rows="5" cols="40" placeholder="enter your message here" required></textarea>
+            <br>
+            <br>
+            <button id="buttons" type="submit">Send</button>
+        </div>
+        </div>
+    </div>
+    <div class="footer">My Portfolio</div>
+</body>
+</html>
