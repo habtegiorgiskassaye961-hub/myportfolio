@@ -4,27 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.png" type="image/png">
-    <title>My Portfolio</title>
+    <title>Project</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        #imoges{
+            border: 2px solid red;
+        }
+        #imoges:hover{
+            border-radius: 30px;
+            box-shadow: 5px 6px 4px blue;
+           border: 5px solid rgb(238, 3, 250);
+        }
         button{
+            border: 2px solid greenyellow;
+            border-radius: 20px;
              position: absolute;
              top: 50%;
              transform: translate(-50%);
-             background: rgba(0,0,0,5);
+             background-color: rgb(46, 108, 171);
              color: white;
              border: none;
              padding: 10px;
              cursor: pointer;
              font-size: 20px;
         }
+        button:hover{
+            background-color: rgb(8, 123, 239);
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
     <div class="head">
-            <p>Habtegiorgis Kassaye</p>
-            <div class="links">
-            <a href="index.html">home</a>
+              <div class="logos">
+                <img src="image/my logo.jpg" alt="">
+                <p><label class="aa" style="color: rgb(5, 243, 5);">Habte</label><label style="color: yellow;" class="bb">giorgis</label><label style="color: red;" class="cc">&nbsp;Kassaye</label></p></div>            <div class="links">
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
              <a href="skill.html">Skills</a>
              <a href="project.html">Projects</a>
@@ -38,13 +55,13 @@
             <img id="imoges" src="image/screen1.png" alt="" style="width: 50%; height: 70%; ">
             <button style="right: 10px; margin-right: 330px;" id="next" onclick="nextslide()">></button>
             <p style="text-align: center; margin-left: 290px; margin-right: 250px;">This project was created as part of my training in HTML,CSS ans JavaScript.It is a simple practice website designed to improve my layout,styling and basic interactivity skills.The main goal of this project was to strengthen my understanding of frontend development fundamentals.</p>
-           <button style="margin-top:270px;" 
+           <button  style="margin-top:340px;" 
             onclick="window.location.href='https://habtegiorgiskassaye961-hub.github.io/hotel/';">
             View Project
 </button>
         </div>
     </div>
-    <div class="footer">My Portfolio</div>
+    <div class="footer"><br>My Portfolio</div>
     <script src="javascript.js"></script>
 </body>
 </html>
